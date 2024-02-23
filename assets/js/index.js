@@ -3,7 +3,9 @@ import { Router } from "./router.js";
 const router = new Router()
 
 router.add("/home","./assets/pages/home.html")
-router.add("")
+router.add("/esportes",".assets/pages/esportes.html")
+router.add("/noticias",".assets/pages/noticias.html")
+
 
 
 
