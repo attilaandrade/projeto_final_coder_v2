@@ -124,11 +124,13 @@
     background-color: #8E78D6;
     border-radius: 25px;
     font-family: 'Kanit', sans-serif;
-    font-size: 45px;
+    font-size: 20px;
     color: white;
     text-align: left;
     padding: 15px;
     margin-top: 20px;
+    height: 45px;
+    width: 160px;
 }
 
 
