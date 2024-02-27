@@ -16,15 +16,15 @@ header {
 
 .menu {
     background-color: #D6C278;
-    height: 100px;
+    height: 3.5rem;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
 }
 
 .menu .logo-menu {
-    height: 50px;
-    margin-left: 200px;
+    align-self: center;
+    margin-left: 13rem;
 }
 
 
@@ -33,23 +33,24 @@ header {
 
 .input-pesquisar input[type="text"] {
     background-color: #D6C278;
-    border: 2px solid #fff;
-    border-radius: 30px;
-    padding: 10px;
-    margin-left: 50px;
-    margin-right: 50px;
+    border: 1px solid #fff;
+    border-radius: 3rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
     color: #FFF;
     font-family: "Kanit", sans-serif;
     font-weight: 200;
     font-style: normal;
-    font-size: 16px;
     outline: none;
+    padding-left: 0.8rem;
 }
+
+
 
 .input-pesquisar input[type="text"]::placeholder {
     color: #FFF;
     font-family: "Kanit", sans-serif;
-    font-size: 16px;
+    font-size: 0, 9rem;
 }
 
 
@@ -59,7 +60,7 @@ header {
 .lista-menu li {
     display: inline-block;
     text-decoration: none;
-    margin-right: 50px;
+    margin-right: 2rem;
 }
 
 .lista-menu a {
@@ -69,7 +70,7 @@ header {
     font-family: "Kanit", sans-serif;
     font-weight: 300;
     font-style: normal;
-    font-size: 25px;
+    font-size: 1, 6rem;
     position: relative;
 }
 
