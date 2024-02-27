@@ -332,6 +332,9 @@ a {
     flex-wrap: wrap;
 }
 
+A .Card-link{
+    text-decoration: none;
+}
 
 
 /* --- Footer --- */
