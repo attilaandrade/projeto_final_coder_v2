@@ -1,3 +1,9 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing : border-box;
+    }
+
 /* Estilos para a div "bannerTopo" */
 #bannerTopo {
     background: url('../img/Home/Banner.jpeg') no-repeat center center fixed;
@@ -65,7 +71,9 @@
     font-size: 20px;
 }
 
-
+.imgCont{
+    
+}
 #contagem::before {
     content: "";
     display: block;
@@ -76,8 +84,8 @@
     width: 1422px;
     height: 510px;
     border-radius: 30px;
-    border: 10px solid #8E78D6;
-    background-color: white;
+    /*border: 10px solid #8E78D6;
+    background-color: white;*/
 }
 
 /* Estilos para a div "noticias" */
