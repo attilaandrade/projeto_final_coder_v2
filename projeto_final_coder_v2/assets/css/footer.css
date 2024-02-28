@@ -13,7 +13,9 @@ body {
 footer {
     background-color: #f3f3f3;
     display: flex;
-    align-items: center;
+    align-items: stretch;
+    flex-direction: row;
+    flex-wrap: nowrap;
     justify-content: center;
 }
 
@@ -21,19 +23,26 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    text-decoration: none;
+}
+
 .FAQ {
-    padding: 3%;
+    padding: 3%, 6%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 /* --- FAQ ---*/
+
+
+
 .top-faq {
     display: inline-flex;
     flex-wrap: wrap;
-    align-items: flex-end;
-    margin-bottom: 20px;
+    flex-direction: row;
+    align-items: center;
 }
 
 footer .font-bold {
@@ -42,21 +51,24 @@ footer .font-bold {
     font-family: "Karantina", system-ui;
     font-weight: 500;
     font-style: normal;
-    color: #3a3a3a;
+    color: #fff;
 }
+
 
 footer .font-regular-faq {
     font-family: "Kanit", sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     font-style: normal;
-    font-size: 15px;
-    color: #000;
+    font-size: 20px;
+    color: #fff;
     margin-left: 10px;
-    margin-bottom: 10px;
 }
+
+
 
 .faq-container {
     width: 750px;
+    height:350px;
     margin: 50px auto;
     background-color: #fff;
     padding: 20px;
@@ -106,6 +118,15 @@ footer .font-regular-faq {
 
 
 /* --- Card Criadores ---*/
+
+footer .font-regular-card {
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    color: #3a3a3a;
+    margin-left: 10px;
+}
 
 .equipe-container {
     padding: 3%;
@@ -162,4 +183,36 @@ footer .font-regular-faq {
     font-weight: 700;
     font-style: normal;
     color: #D6C278;
+}
+
+/*  FAQ Bootstrap */
+
+.faq-container{
+    color: #8E78D6;
+    background-color: #8E78D6;
+}
+
+.card{
+    border-color: #fff;
+}
+
+.card-header{
+    background-color: #8E78D6;
+}
+
+.card-body{
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #fff;
+    color: #8E78D6;
+}
+
+.btn:not(:disabled):not(.disabled) {
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    font-style: normal;
 }
