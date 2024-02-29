@@ -63,9 +63,6 @@
     font-size: 20px;
 }
 
-.imgCont{
-    
-}
 #contagem::before {
     content: "";
     display: block;
@@ -80,21 +77,11 @@
     background-color: white;*/
 }
 
-/* Estilos para a div "noticias" */
-#noticias {
-    /* Estilos gerais para a div aqui */
-}
-
 .fraseNoticias {
     font-family: 'Karantina', sans-serif;
     font-size: 116px;
     color: black;
     text-align: left;
-}
-
-/* Estilos para a div "esportes" */
-#esportes {
-    /* Estilos gerais para a div aqui */
 }
 
 .fraseGaleria {
@@ -131,5 +118,5 @@
 
 .btn:hover{
     background-color: #806CC0;
-    boder-color: #806CC0;
+    border-color: #806CC0;
 }
