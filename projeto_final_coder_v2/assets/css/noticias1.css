@@ -41,15 +41,13 @@ body {
   font-family: 'Kanit', sans-serif;
 }
 
-
 .destaques-flex-pai {
   display: flex;
   flex-wrap: wrap;
   background-color: #4bbbda;
   height: 480px;
   width: 1000px;
-  /* justify-content: space-around;
-  align-items: center; */
+  align-items: center;
 }
 
 .destaques-flex-filho-g {
@@ -75,7 +73,6 @@ body {
   flex-wrap: wrap;
   height: 246px;
   width: 246px;
-  /* background-color: violet; */
   justify-content: space-around;
   align-items: center;
 }
@@ -106,10 +103,10 @@ body {
   border-radius: 1rem;
 }
 
-.card-img-top{
-height: auto;
-width: auto;
-border-radius: 1rem 1rem 0 0;
+.card-img-top {
+  height: auto;
+  width: auto;
+  border-radius: 1rem 1rem 0 0;
 }
 
 .card-header {
@@ -152,10 +149,10 @@ border-radius: 1rem 1rem 0 0;
   border-radius: 1rem;
 }
 
-.card-g-img-top{
-height: auto;
-width: auto;
-border-radius: 1rem 1rem 0 0;
+.card-g-img-top {
+  height: auto;
+  width: auto;
+  border-radius: 1rem 1rem 0 0;
 }
 
 .card-g-header {
@@ -196,10 +193,10 @@ border-radius: 1rem 1rem 0 0;
   border-radius: 1rem;
 }
 
-.card-p-img-top{
-height: auto;
-width: auto;
-border-radius: 1rem 1rem 0 0;
+.card-p-img-top {
+  height: auto;
+  width: auto;
+  border-radius: 1rem 1rem 0 0;
 }
 
 .card-p-header {
@@ -223,7 +220,7 @@ border-radius: 1rem 1rem 0 0;
   text-align: left;
 }
 
-/* .card {
+.card {
   position: relative;
   display: -ms-flexbox;
   display: flex;
@@ -237,10 +234,10 @@ border-radius: 1rem 1rem 0 0;
   border-radius: 1rem;
 }
 
-.card-img-top{
-height: auto;
-width: auto;
-border-radius: 1rem 1rem 0 0;
+.card-img-top {
+  height: auto;
+  width: auto;
+  border-radius: 1rem 1rem 0 0;
 }
 
 .card-header {
@@ -262,8 +259,7 @@ border-radius: 1rem 1rem 0 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif font-weight: 400;
   color: #fffff;
   text-align: left;
-} */
-
+}
 
 
 

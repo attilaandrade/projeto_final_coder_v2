@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">    <!-- Bootstrap indica colocar a linguagem em pt-br  -->
+<html lang="pt-br"> <!-- Bootstrap indica colocar a linguagem em pt-br  -->
 
 <head>
     <meta charset="UTF-8">
@@ -9,7 +9,7 @@
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="../css/noticias.css">
     <!-- Favicon -->
-    <link rel="shortcut icon" href="../img/Noticias/favicon.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="../img/Header/Logo.png" type="image/x-icon" />
 
     <!-- CSS Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
@@ -41,12 +41,115 @@
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400;500&display=swap" rel="stylesheet">
 </head>
 
-<!-- INCLUIR MENU  -->
+<!-- BODY -->
+
+<body class="pagina-noticias">
+
+    <!-- MENU -->
+    <header>
+        <iframe src="../pages/header.html" frameborder="0" width="100%" height="130px"></iframe>
+    </header>
+
+    <!-- CAPA -->
+    <div class="container-imagem-capa">
+        <img src="../img/Noticias/capa-paris.png" class="img-fluid" alt="Imagem ilustrativa de Paris nas olimpíadas">
+
+    </div>
 
 
-<body>
 
-    <img src="../img/Noticias/capa-paris.png" class="img-fluid" alt="Imagem responsiva">
+    <!--DESTAQUES ESPORTES-->
+    <section>
+
+
+        <!--CAIXA BACKGROUND BRANCO COM BORDA ARREDONDADA PARA DESTAQUES-->
+        <div class="container-destaques">
+
+
+            <!--DESTAQUES ESPORTES-->
+
+            <!--CAIXA GRANDE ESQUERDA-->
+            <div class="destaques-flex-filho-g">
+                <div class="card-g" style="width: 490px;">
+                    <img class="card-g-img-top" src="../img/Noticias/skate.png" alt="Skate">
+                    <div class="card-g-body">
+                        <a
+                            href="https://ge.globo.com/skate/noticia/2022/11/07/paris-2024-skate-anuncia-competicoes-validas-para-ranking-olimpico.ghtml">
+                            <h2 class="card-g-title">SKATE</h2>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!--CAIXA GRANDE DIREITA-->
+            <div class="destaques-flex-filho-g">
+
+                <div class="destaques-flex-filho-m">
+
+                    <div class="destaques-flex-filho-p">
+
+                        <div class="card-p" style="width: auto;">
+                            <img class="card-p-img-top" src="../img/Noticias/basquete.jpeg" alt="Basquete">
+                            <div class="card-p-body">
+                                <a
+                                    href="https://olimpiadatododia.com.br/paris-2024/520068-jogos-olimpicos-basquete-3x3/">
+                                    <h2 class="card-p-title">BASQUETE</h2>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="destaques-flex-filho-p">
+                        <div class="card-p" style="width: auto;">
+                            <img class="card-p-img-top" src="../img/Noticias/hipismo.webp" alt="Hipismo">
+                            <div class="card-p-body">
+                                <a
+                                    href="https://ge.globo.com/hipismo/noticia/2023/03/13/paris-2024-veja-classificacao-do-hipismo-para-as-olimpiadas.ghtml">
+                                    <h2 class="card-p-title">HIPISMO</h2>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="destaques-flex-filho-m">
+
+                    <div class="destaques-flex-filho-p">
+                        <div class="card-p" style="width: auto;">
+                            <img class="card-p-img-top" src="../img/Noticias/natacao.png" alt="Natação">
+                            <div class="card-p-body">
+                                <a href="https://olimpiadatododia.com.br/paris-2024/524997-jogos-olimpicos-natacao/">
+                                    <h2 class="card-p-title">NATAÇÃO</h2>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="destaques-flex-filho-p">
+                        <div class="card-p" style="width: auto;">
+                            <img class="card-p-img-top" src="../img/Noticias/futebol.png" alt="Futebol">
+                            <div class="card-p-body">
+                                <a href="https://olimpiadatododia.com.br/paris-2024/497790-jogos-olimpicos-futebol/">
+                                    <h2 class="card-p-title">FUTEBOL</h2>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        </div>
+
+
+    </section>
+
+
+
 
 
 
@@ -84,6 +187,9 @@
 
 
 
-<!-- INCLUIR FOOTER  -->
+<!-- FOOTER  -->
+<footer>
+    <iframe src="../pages/footer.html" frameborder="0" width="100%" height="520px"></iframe>
+</footer>
 
 </html>
