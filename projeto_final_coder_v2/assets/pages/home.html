@@ -1,4 +1,3 @@
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -26,17 +25,32 @@
 <body>
 <!-- Banner que ficará logo abaixo do menu -->
 <div id="bannerTopo">
-    
-    <p class="fraseNova">NOVAS MODALIDADES CHEGANDO</p>
-    <div class="btn-home">
-       <a href="/projeto_final_coder_v2/assets/pages/esportes.html"> <button class="btn home" type="button" id="btnConhecer">CONHECER AGORA ></button></a>
+  
+    <div class="imgContainer">
+      <img src="../img/Home/Banner.jpeg" />
     </div>
-    <p class="fraseCultura">Cultura das ruas</p>
-    <p class="fraseSkate">Skate e breakdance destacam cultura urbana nas Olimpíadas, ampliando diversidade e autenticidade no cenário esportivo.</p>
+    
+    <!-- LEFT TEXT - NOVAS MODALIDADES CHEGANDO -->
+    <div class="overlayTextLeft">
+      <div class="newModality">NOVAS <div>MODALIDADES</div></div>
+      <div class="newModalityComming">CHEGANDO</div>
+      <div class="btn-home">
+        <!-- <button class="btn home" type="button" id="btnConhecer">CONHECER AGORA ></button> -->
+        <a href="/projeto_final_coder_v2/assets/pages/esportes.html">CONHECER AGORA <span class="greater-icon">&#62;</span></a>
+     </div> 
+    </div>
+
+    <div class="overlayTextRight">
+      <div class="circleLeftCulture"></div>
+      <div class="leftLineCulture"></div>
+      <div class="fraseCultura">A cultura das ruas</div>
+      <div class="fraseSkate">Skate e breakdance destacam cultura urbana nas Olimpíadas, ampliando diversidade e autenticidade no cenário esportivo.</div>
+    </div>
+    
 </div>
 
 <!--Container para um simulador de contagem regressiva-->
-<div id="contagem">
+<div class="contagem">
     <p class="fraseContagem">A contagem regressiva começou!</p>
     <p class="fraseTocha">A Tocha será acesa, e os atletas já estão prontos</p>
     <img src="/projeto_final_coder_v2/assets/img/Home/contagem_regressiva.jpg" alt="imagem simulando uma contagem regressiva para início das Olimpíadas de Paris 2024">

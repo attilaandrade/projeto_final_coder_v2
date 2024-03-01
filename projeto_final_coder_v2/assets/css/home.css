@@ -8,12 +8,39 @@
 
 /* Estilos para a div "bannerTopo" */
 #bannerTopo {
-    background: url('../img/Home/Banner.jpeg') no-repeat center center fixed;
-    background-size: cover;
-    height: 1728px;
-    /*width: 1078px;*/
-    width: 2200px;
+    display: flex;
+    /* background: url('../img/Home/Banner.jpeg') no-repeat center center fixed; */
+    /* background-size: cover; */
+    /* height: 1728px; */
+    /* width: 1078px;
+    width: 2200px; */
+    width: fit-content;
     position: relative;
+}
+
+.imgContainer {
+    position: relative;
+    display: inline-block;
+}
+.imgContainer img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 0 0 186px 0;
+  box-shadow: 10px 10px 10px 0px #00000026;
+}
+
+.overlayTextLeft {
+    position: absolute;
+    left: 110px;
+    top: 305px;
+}
+
+.overlayTextRight {
+    position: absolute;
+    max-width: 330px;
+    right: 50px;
+    bottom: 120px;
 }
 
 .imgBanner {
@@ -32,26 +59,94 @@
     color: #D6C278;
 }
 
+.newModality {
+    color: #FFFFFF;
+    font-family: 'Karantina';
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 90px;
+}
+.newModalityComming {
+    color: #D6C278;
+    font-family: 'Karantina';
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 90px;
+    text-align: left;
+}
 
 .fraseCultura {
     background-color: #D6C278;
     font-family: 'Kanit', sans-serif;
-    font-size: 30px;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 44.85px;
     color: white;
     text-align: left;
-    padding: 15px;
+    padding: 0 0 0 15px;
+    border-radius: 0px 0px 25px 0px;
 }
 
 .fraseSkate {
     color: white;
     font-family: 'Kanit', sans-serif;
-    font-size: 20px;
+    font-size: 16px;
+    font-weight: 100;
     text-align: left;
+    max-width: 275px;
+    padding-top: 15px;
+}
+
+.circleLeftCulture {
+    width: 11px;
+    height: 11px;
+    background: #D6C278;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    position: relative;
+    right: 107px;
+    top: 41px;
+    border-radius: 20px;
+}
+.leftLineCulture {
+    width: 100px;
+    height: 1px;
+    background: #D6C278;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    position: relative;
+    right: 100px;
+    top: 30px;
+}
+
+.btn-home {
+    background: #8E78D6;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    max-width: 215px;
+}
+.btn-home > a {
+    color: white;
+    font-weight: 700;
+}
+.greater-icon {
+    font-size: 18px;
+    font-weight: 700;
+    position: relative;
+    left: 10px;
 }
 
 /* Estilos para a div "contagem" */
-#contagem {
+.contagem {
     text-align: center;
+    border: 10px solid #806CC0;
+    border-radius: 0 0 20px 20px;
+    padding: 40px 20px 50px 50px;
+    margin-top: -15px;    
+    margin-left: 10%;
+    margin-right: 13%;
+    box-shadow: 0px 4px 4px 0px lightgray;
 }
 
 .fraseContagem {
@@ -62,20 +157,6 @@
 .fraseTocha {
     color: black;
     font-size: 20px;
-}
-
-#contagem::before {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 1422px;
-    height: 510px;
-    border-radius: 30px;
-    /*border: 10px solid #8E78D6;
-    background-color: white;*/
 }
 
 .fraseNoticias {
