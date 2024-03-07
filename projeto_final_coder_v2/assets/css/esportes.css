@@ -9,7 +9,7 @@
 
 
 body {
-    padding-top: 130px;
+    padding-top: 120px;
 }
 
 
@@ -209,9 +209,7 @@ a {
 }
 
 .Eventos {
-
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
