@@ -1,16 +1,17 @@
-*{
-    margin : 0;
-    padding : 0;
-    box-sizing : border-box;
-    }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 /* --- Header --- */
 
 
 header {
-    position: fixed;
+    position: relative;
     top: 0;
     width: 100%;
+    z-index: 2;
 }
 
 .menu {
@@ -125,23 +126,27 @@ header {
     background-color: #000;
 }
 
-/* Estilos para a div "bannerTopo" */
+/* Corpo da página home
+Estilos para a div "bannerTopo" */
+
 #bannerTopo {
     display: flex;
     width: fit-content;
     position: relative;
+    z-index: 1;
 }
 
 .imgContainer {
     position: relative;
     display: inline-block;
 }
+
 .imgContainer img {
-  display: block;
-  width: 100%;
-  height: auto;
-  border-radius: 0 0 186px 0;
-  box-shadow: 10px 10px 10px 0px #00000026;
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 0 0 186px 0;
+    box-shadow: 10px 10px 10px 0px #00000026;
 }
 
 .overlayTextLeft {
@@ -180,6 +185,7 @@ header {
     font-weight: 700;
     line-height: 90px;
 }
+
 .newModalityComming {
     color: #D6C278;
     font-family: 'Karantina';
@@ -222,6 +228,7 @@ header {
     top: 41px;
     border-radius: 20px;
 }
+
 .leftLineCulture {
     width: 100px;
     height: 1px;
@@ -240,10 +247,12 @@ header {
     text-align: center;
     max-width: 215px;
 }
-.btn-home > a {
+
+.btn-home>a {
     color: white;
     font-weight: 700;
 }
+
 .greater-icon {
     font-size: 18px;
     font-weight: 700;
@@ -257,7 +266,7 @@ header {
     border: 10px solid #806CC0;
     border-radius: 0 0 20px 20px;
     padding: 40px 20px 50px 50px;
-    margin-top: -15px;    
+    margin-top: -15px;
     margin-left: 10%;
     margin-right: 13%;
     box-shadow: 0px 4px 4px 0px lightgray;
@@ -295,13 +304,13 @@ header {
 
 /* Estilo para os botões */
 
-.btnTodos{
+.btnTodos {
     display: flex;
     align-items: center;
     margin-left: 20px;
 }
 
-.btn{
+.btn {
     padding: 10px 30px;
     border: 1px solid #8E78D6;
     border-radius: 20px;
@@ -312,105 +321,43 @@ header {
     font-weight: 600;
 }
 
-.btn:hover{
+.btn:hover {
     background-color: #806CC0;
     border-color: #806CC0;
 }
 
-/*.carousel {
-    width: 100%;
-    height: 300px;
-    overflow: hidden;
-    position: relative;
-  }
-  
-  .carousel-list {
-    display: flex;
-    width: 500%;
-    height: 100%;
-    transition: transform 0.5s;
-  }
-  
-  .carousel-list li {
-    flex: 20%;
-    height: 100%;
-    list-style: none;
-  }
-
-  /* Estilo para o carousel */
-/*#carouselExampleIndicators {
-    width: 100%;
-    height: 300px;
-    overflow: hidden;
-    position: relative;
-}
-
-/* Estilo para a lista do carousel */
-/*#carouselExampleIndicators .carousel-inner {
-    display: flex;
-    width: 400%; 
-    height: 100%;
-    transition: transform 0.5s;
-}
-
-/* Estilo para os itens do carousel */
-/*#carouselExampleIndicators .carousel-item {
-    flex: 25%; 
-    height: 100%;
-    list-style: none;
-}
-
-/* Estilo para as imagens dentro dos itens do carousel */
-/*#carouselExampleIndicators .carousel-item img {
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    max-height: 100%; 
-    margin: 0 auto; 
-    width: auto;
-}
-
-
-
 /* Estilos para a div "noticias" */
 #noticias {
-    text-align: center;
-    margin-top: 50px; /* Ajuste conforme necessário */
-}
-
-.fraseNoticias {
-    font-family: 'Karantina', sans-serif;
-    font-size: 50px; /* Ajuste conforme necessário */
-    color: black;
-    text-align: center;
-}
+    display: flex;
+}   
 
 /* Estilos para o carousel com imagens de notícias */
 #carouselExampleIndicators {
-    width: 100%;
-    height: 300px;
+    width: 100% !important;
+    height: 300px !important;
     overflow: hidden;
     position: relative;
-    margin-top: 20px; /* Ajuste conforme necessário */
+    margin-top: 20px;
 }
 
 #carouselExampleIndicators .carousel-inner {
     display: flex;
-    width: 400%; /* Ajuste conforme necessário */
+    width: 100%;
     height: 100%;
     transition: transform 0.5s;
 }
 
 #carouselExampleIndicators .carousel-item {
-    flex: 25%; /* Ajuste conforme necessário */
+    flex: 25%;
     height: 100%;
     list-style: none;
 }
 
 #carouselExampleIndicators .carousel-item img {
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    max-height: 100%; /* Ajuste conforme necessário */
-    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+    box-shadow: 0 0 50px;
+    max-height: 100%;
+    margin: 0 auto;
     width: auto;
 }
 
@@ -420,29 +367,30 @@ header {
     height: 300px;
     overflow: hidden;
     position: relative;
-    margin-top: 20px; /* Ajuste conforme necessário */
+    margin-top: 20px;
 }
 
 #carouselExampleIndicators2 .carousel-inner {
     display: flex;
-    width: 400%; /* Ajuste conforme necessário */
+    width: 100%;
     height: 100%;
     transition: transform 0.5s;
 }
 
 #carouselExampleIndicators2 .carousel-item {
-    flex: 25%; /* Ajuste conforme necessário */
+    flex: 25%;
     height: 100%;
     list-style: none;
 }
 
 #carouselExampleIndicators2 .carousel-item img {
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    max-height: 100%; /* Ajuste conforme necessário */
-    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+    box-shadow: 0 0 50px;
+    max-height: 100%;
+    margin: 0 auto;
     width: auto;
 }
+
 
 
 /* --- Footer --- */
@@ -503,7 +451,7 @@ footer .font-regular-faq {
 
 .faq-container {
     width: 750px;
-    height:350px;
+    height: 350px;
     margin: 50px auto;
     background-color: #fff;
     padding: 20px;
@@ -622,20 +570,20 @@ footer .font-regular-card {
 
 /*  FAQ Bootstrap */
 
-.faq-container{
+.faq-container {
     color: #8E78D6;
     background-color: #8E78D6;
 }
 
-.card{
+.card {
     border-color: #fff;
 }
 
-.card-header{
+.card-header {
     background-color: #8E78D6;
 }
 
-.card-body{
+.card-body {
     font-family: "Kanit", sans-serif;
     font-weight: 400;
     font-style: normal;
