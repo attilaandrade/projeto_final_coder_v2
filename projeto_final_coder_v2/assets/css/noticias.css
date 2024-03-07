@@ -12,6 +12,128 @@
 /* Incluir estilização para os textos dos links */
 
 
+/* --- Header --- */
+
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.menu-header {
+    background-color: #D6C278;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.menu-header .logo-menu-header {
+    align-self: center;
+    margin-left: 13rem;
+}
+
+
+/* --- Botão pesquisar --- */
+
+
+.input-pesquisar-header input[type="text"] {
+    background-color: #D6C278;
+    border: 1px solid #fff;
+    border-radius: 3rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    color: #FFF;
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    outline: none;
+    padding-left: 0.8rem;
+}
+
+
+
+.input-pesquisar-header input[type="text"]::placeholder {
+    color: #FFF;
+    font-family: "Kanit", sans-serif;
+    font-size: 0, 9rem;
+}
+
+
+/* --- Menu lista --- */
+
+
+.lista-menu-header li {
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 2rem;
+}
+
+.lista-menu-header a {
+    display: flex;
+    text-decoration: none;
+    color: #FFF;
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1, 6rem;
+    position: relative;
+}
+
+/* --- Menu lista hover --- */
+.lista-menu-header a:after {
+    content: '';
+    /* Cria um elemento de pseudo-elemento vazio */
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: #ffffff;
+    position: absolute;
+    bottom: -2px;
+    transition: width 0.3s ease;
+}
+
+.lista-menu-header a:hover:after,
+.lista-menu-header a.pagina-atual:after {
+    width: 100%;
+}
+
+/* --- Barra Ao Vivo --- */
+
+
+.Aovivo-header ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.Aovivo-header ul li {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.Aovivo-header ul img {
+    margin-left: 5px;
+}
+
+.Aovivo-header ul a {
+    text-decoration: none;
+    color: #fff
+}
+
+
+.Aovivo-header {
+    background-color: #000;
+}
+
+
 
 /* Caixa da imagem da capa */
 .container-imagem-capa {
