@@ -8,7 +8,7 @@
 
 
     <!-- Imagem Olimpiadas -->
-    <link rel="shortcut icon" href="../img/Header/Logo.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="./projeto_final_coder_v2/assets/img/Header/Logo.png" type="image/x-icon" />
 
     <!-- Fonte Karantina  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -36,51 +36,51 @@
         crossorigin="anonymous"></script>
 
     <!-- estilização da página-->
-    <link rel="stylesheet" type="text/css" href="../css/home.css">
+    <link rel="stylesheet" type="text/css" href="/index.css">
 </head>
 
 <body>
-    <header class="menu-header">
+    <header class="menu">
 
 
         <!-- Menu topo -->
 
 
-        <div class="menu">
-            <nav class="logo-menu">
-                <a href="/projeto_final_coder_v2/assets/pages/home.html"><img src="../img/Header/Logo.png"
-                        alt="logo-menu" class="logo"></a>
+        <div class="menu-header">
+            <nav class="logo-menu-header">
+                <a href="/index.html"><img src="/projeto_final_coder_v2/assets/img/Header/Logo.png" alt="logo-menu"
+                        class="logo"></a>
             </nav>
 
-            <div class="input-pesquisar">
+            <div class="input-pesquisar-header">
                 <input type="text" placeholder="Pesquisar...">
             </div>
 
 
-            <nav class="lista-menu">
+            <nav class="lista-menu-header">
                 <ul>
-                    <li class="pagina-inicio"><a href="/projeto_final_coder_v2/assets/pages/home.html">Início</a></li>
+                    <li class="pagina-inicio"><a href="../index.html">Início</a></li>
                     <li class="pagina-esportes"><a
-                            href="/projeto_final_coder_v2/assets/pages/esportes.html">Esportes</a></li>
+                            href="../projeto_final_coder_v2/assets/pages/esportes.html">Esportes</a></li>
                     <li class="pagina-noticias"><a
-                            href="/projeto_final_coder_v2/assets/pages/noticias.html">Notícias</a></li>
-                    <li class="pagina-loja"><a href="/projeto_final_coder_v2/assets/pages/loja.html">Loja</a></li>
+                            href="../projeto_final_coder_v2/assets/pages/noticias.html">Notícias</a></li>
+                    <li class="pagina-loja"><a href="../projeto_final_coder_v2/assets/pages/loja.html">Loja</a></li>
                 </ul>
             </nav>
-
         </div>
 
 
         <!-- Tarja ao vivo  -->
 
-
-        <div class="Aovivo">
+        <div class="Aovivo-header">
             <ul>
-                <li><a href="#">0 Eventos ativos</a> <img src="../img/Header/ao vivo.png" alt="ao vivo">
+                <li><a href="#">0 Eventos ativos</a> <img src="/projeto_final_coder_v2/assets/img/Header/ao vivo.png"
+                        alt="ao vivo">
                 </li>
             </ul>
         </div>
-        </div>
+    </header>
+
 
     </header>
 
@@ -88,7 +88,7 @@
     <div id="bannerTopo">
 
         <div class="imgContainer">
-            <img src="../img/Home/Banner.jpeg" />
+            <img src="/projeto_final_coder_v2/assets/img/Home/Banner.jpeg" />
         </div>
 
         <!-- LEFT TEXT - NOVAS MODALIDADES CHEGANDO -->
@@ -123,17 +123,68 @@
 
     <!--Container onde terá atualizações de notícias dos jogos olimpícos-->
     <div id="noticias">
-        <!-- <div class="noticiaFlex">-->
+
         <div class="fraseNoticias">NOTÍCIAS</div>
-        <div class="btn-home-noticias">
-            <a href="/projeto_final_coder_v2/assets/pages/noticias.html">MAIS DETALHES <span
-                    class="greater-icon">&#62</span></a>
-            <!--</div>-->
+
+        <div id="botaoNoticias">
+            <div class="btn-home-noticias">
+                <a href="/projeto_final_coder_v2/assets/pages/noticias.html">MAIS DETALHES <span
+                        class="greater-icon">&#62</span></a>
+                <!--</div>-->
+            </div>
         </div>
     </div>
     <!--Carousel bootstrap com imagens de notícias-->
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="/projeto_final_coder_v2/assets/img/Home/noticia1.jpg"
+                    alt="Abertura dos jogos olimpicos Paris 2024 será em 26 de julho">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="/projeto_final_coder_v2/assets/img/Home/noticia2.jpg"
+                    alt="Saiba quais esportes coletivos o Brasil irá disputar">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="/projeto_final_coder_v2/assets/img/Home/noticia3.jpg"
+                    alt="Quem são os atletas que irão representar o Brasil no surf">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+        </a>
+    </div>
+    <!--Fim Carousel bootstrap com imagens de notícias-->
+
+    <!--Container com banner mostrando alguns esportes que terão nos jogos olimpicos, direcionando para a página de esportes-->
+    <div id="esportes">
+        <div class="texto">
+            <div class="esquerda">
+                <div class="fraseGaleria">Galeria</div>
+                <div class="fraseEsportes">ESPORTES</div>
+            </div>
+
+            <div class="direita">
+                <div class="btn-home-esportes">
+                    <a href="/projeto_final_coder_v2/assets/pages/esportes.html">VER TODOS <span
+                            class="greater-icon">&#62</span></a>
+                </div>
+            </div>
+        </div>
+        <div class="img">
+            <img class="imagemEsporte" src="/projeto_final_coder_v2/assets/img/Home/galeria_esportes.jpg"
+                alt="galeria com vários esportes que estarão nos jogos olimpícos">
+        </div>
+    </div>
+
+    <!--Carousel bootstrap com imagens de atletas -->
+
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <!--indicadores de navegação do carousel-->
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -141,16 +192,20 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="d-block w-100" src="/projeto_final_coder_v2/assets/img/Home/noticia1.jpg"
-                    alt="Primeiro Slide">
+                <img class="d-block w-100" src="/projeto_final_coder_v2/assets/img/Home/atleta1.jpg"
+                    alt="Atleta olimpica Oriane Bertone">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="/projeto_final_coder_v2/assets/img/Home/noticia2.jpg"
-                    alt="Segundo Slide">
+                <img class="d-block w-100" src="/projeto_final_coder_v2/assets/img/Home/atleta2.jpg"
+                    alt="Atleta olimpica Rayssa Leal">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="/projeto_final_coder_v2/assets/img/Home/noticia3.jpg"
-                    alt="Terceiro Slide">
+                <img class="d-block w-100" src="/projeto_final_coder_v2/assets/img/Home/atleta3.jpg"
+                    alt="Atleta olimpico Filipe Toledo">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="/projeto_final_coder_v2/assets/img/Home/atleta4.jpg"
+                    alt="Atleta olimpica Rebeca Andrade">
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -163,150 +218,12 @@
         </a>
     </div>
 
+    <!--Fim Carousel bootstrap com imagens de atletas -->
 
-
-
-    <!--Container com banner mostrando alguns esportes que terão nos jogos olimpicos, direcionando para a página de esportes-->
-    <div id="esportes">
-        <p class="fraseGaleria">Galeria</p>
-        <p class="fraseEsportes">ESPORTES</p>
-        <div class="btn-home">
-            <a href="/projeto_final_coder_v2/assets/pages/esportes.html">VER TODOS <span
-                    class="greater-icon">&#62</span></a>
-        </div>
-        <img src="../img/Home/galeria_esportes.jpg" alt="galeria com vários esportes que estão nos jogos olimpícos">
-    </div>
-    <!--Carousel bootstrap com imagens de atletas-->
-    <div id="atletas">
-        <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators2">
-                <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
-                <li data-target="#carouselExampleIndicators2" data-slide-to="3"></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="carousel-item-active">
-                    <img class="d-block w-100" src="/projeto_final_coder_v2/assets/img/Home/atleta1.jpg"
-                        alt="Atleta Olimpíca Oriane Bertone">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="/projeto_final_coder_v2/assets/img/Home/atleta2.jpg"
-                        alt="Atleta Olimpíca Rayssa Leal">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="/projeto_final_coder_v2/assets/img/Home/atleta3.jpg"
-                        alt="Atleta Olimpíco Filipe Toledo">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="/projeto_final_coder_v2/assets/img/Home/atleta4.jpg"
-                        alt="Atleta Olimpíco Rebeca Andrade">
-                </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon2" aria-hidden="true"></span>
-                <span class="sr-only">Anterior</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
-                <span class="carousel-control-next-icon2" aria-hidden="true"></span>
-                <span class="sr-only2">Próximo</span>
-            </a>
-        </div>
-    </div>
-
+    <!-- FOOTER  -->
     <footer>
-
-        <section class="FAQ">
-            <div class="faq-container">
-                <div class="top-faq">
-                    <p class="font-bold">FAQ</p>
-                    <p class="font-regular-faq">Perguntas Frequentes</p>
-                </div>
-                <div class="accordion" id="accordionExample">
-                    <div class="card">
-                        <div class="card-header" id="headingOne">
-                            <h5 class="mb-0">
-                                <button class="btn btn-link" type="button" data-toggle="collapse"
-                                    data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    Como comprar ingressos para assistir aos Jogos Olímpicos Paris 2024?
-                                </button>
-                            </h5>
-                        </div>
-
-                        <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
-                            data-parent="#accordionExample">
-                            <div class="card-body">
-                                Estão disponiveis no nosso site e na bilheteria dos estádios de cada esporte.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header" id="headingTwo">
-                            <h5 class="mb-0">
-                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                    data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    Quando será a abertura Paris 2024?
-                                </button>
-                            </h5>
-                        </div>
-                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
-                            data-parent="#accordionExample">
-                            <div class="card-body">
-                                A cerimônia de abertura dos Jogos Olímpicos de Verão acontecerão na noite do dia 26 de
-                                julho de 2024.
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- FAQ  -->
-
-
-
-        <section class="equipe-container">
-            <!-- Cards Criadores  -->
-            <div class="equipe">
-                <p class="font-equipe">Medalha de Ouro</p>
-                <p class="font-regular-card">Conheçam os atletas que vestiram a camisa e batalharam para
-                    conquistar a medalha!</p>
-
-            </div>
-
-            <!-- Ale  -->
-
-
-            <nav class="criadores">
-                <a class="link-criadores" href="#">
-                    <div class="cardCriadores">
-                        <img class="foto" src="../img/Footer/Ale.jpg" alt="Descrição da imagem">
-                        <p class="titulo">Alessandro Rodrigues</p>
-                        <span class="subtitulo">Programador Aprendiz</span>
-                    </div>
-                </a>
-
-                <!-- Áttila Andrade -->
-                <a class="link-criadores" href="#">
-                    <div class="cardCriadores">
-                        <img class="foto" src="../img/Footer/Áttila.png" alt="Descrição da imagem">
-                        <p class="titulo">Áttila Andrade</p>
-                        <span class="subtitulo">Programador Aprendiz</span>
-                    </div>
-                </a>
-
-                <!-- Juliana Martins  -->
-                <a class="link-criadores" href="">
-                    <div class="cardCriadores">
-                        <img class="foto" src="../img/Footer/Juliana.png" alt="Descrição da imagem">
-                        <p class="titulo">Juliana Martins</p>
-                        <span class="subtitulo">Programadora Aprendiz</span>
-                    </div>
-                </a>
-            </nav>
-        </section>
-
-
+        <iframe src="/projeto_final_coder_v2/assets/pages/footer.html" frameborder="0" width="100%"
+            height="520px"></iframe>
     </footer>
 
 
@@ -321,4 +238,5 @@
         crossorigin="anonymous"></script>
 
 </body>
+
 </html>

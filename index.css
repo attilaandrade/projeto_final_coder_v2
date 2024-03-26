@@ -261,10 +261,23 @@ Estilos para a div "bannerTopo" */
     max-width: 215px;
     display: flex;
     flex-direction: row;
-
 }
 
 .btn-home-noticias>a {
+    color: white;
+    font-weight: 700;
+}
+
+.btn-home-esportes {
+        background: #8E78D6;
+        border-radius: 10px;
+        padding: 10px;
+        max-width: 215px;
+        display: flex;
+        margin-left: auto;
+}
+
+.btn-home-esportes>a {
     color: white;
     font-weight: 700;
 }
@@ -308,14 +321,26 @@ Estilos para a div "bannerTopo" */
 .fraseGaleria {
     font-family: 'Karantina', sans-serif;
     font-size: 50px;
+    line-height: 40px;
     color: black;
-    text-align: left;
+    
 }
 
 .fraseEsportes {
     font-family: 'Karantina', sans-serif;
     font-size: 116px;
+    line-height: 96px;
     color: #8E78D6;
+    text-align: left;
+
+}
+
+/* alinhamento esportes */
+
+.texto{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
 }
 
 /* Estilo para os botões */
@@ -345,74 +370,32 @@ Estilos para a div "bannerTopo" */
 /* Estilos para a div "noticias" */
 #noticias {
     display: flex;
-}   
+}
 
 #botaoNoticias {
     display: flex;
-    flex-direction: row;
+   flex-direction: row;
+   align-items: center;
+}
+
+
+ /* Estilos para a div "Esportes" */
+#esportes {
+    justify-content: space-between;
     align-items: center;
 }
-/* Estilos para o carousel com imagens de notícias */
-#carouselExampleIndicators {
-    width: 100% !important;
-    height: 300px !important;
-    overflow: hidden;
-    position: relative;
-    margin-top: 20px;
+
+
+/* botões avançar e voltar carrosel */
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 25px;
+    width: 25px;
+    background-color: #8E78D6;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+
 }
-
-#carouselExampleIndicators .carousel-inner {
-    display: flex;
-    width: 100%;
-    height: 100%;
-    transition: transform 0.5s;
-}
-
-#carouselExampleIndicators .carousel-item {
-    flex: 25%;
-    height: 100%;
-    list-style: none;
-}
-
-#carouselExampleIndicators .carousel-item img {
-    border-radius: 5px;
-    box-shadow: 0 0 50px;
-    max-height: 100%;
-    margin: 0 auto;
-    width: auto;
-}
-
-/* Estilos para o segundo carousel de atletas */
-#carouselExampleIndicators2 {
-    width: 100%;
-    height: 300px;
-    overflow: hidden;
-    position: relative;
-    margin-top: 20px;
-}
-
-#carouselExampleIndicators2 .carousel-inner {
-    display: flex;
-    width: 100%;
-    height: 100%;
-    transition: transform 0.5s;
-}
-
-#carouselExampleIndicators2 .carousel-item {
-    flex: 25%;
-    height: 100%;
-    list-style: none;
-}
-
-#carouselExampleIndicators2 .carousel-item img {
-    border-radius: 5px;
-    box-shadow: 0 0 50px;
-    max-height: 100%;
-    margin: 0 auto;
-    width: auto;
-}
-
-
 
 /* --- Footer --- */
 
