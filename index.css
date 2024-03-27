@@ -425,6 +425,8 @@ a:hover {
 
 /* --- FAQ ---*/
 
+
+
 .top-faq {
     display: inline-flex;
     flex-wrap: wrap;
@@ -508,11 +510,12 @@ footer .font-regular-faq {
 
 footer .font-regular-card {
     font-family: "Kanit", sans-serif;
-    font-weight: 500;
+    font-weight: 200;
     font-style: normal;
     font-size: 20px;
     color: #3a3a3a;
     margin-left: 10px;
+    margin-bottom: 0;
 }
 
 .equipe-container {
@@ -520,13 +523,12 @@ footer .font-regular-card {
 }
 
 .cardCriadores {
-    height: 250px;
-    width: 300px;
+    height: 225px;
+    width: 200px;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
-    padding: 20px;
     margin-right: 20px;
     margin-bottom: 30px;
 }
@@ -536,26 +538,32 @@ footer .font-regular-card {
     height: 100px;
     border-radius: 50%;
     margin-bottom: 15px;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .titulo {
+    font-size: 15px;
     color: #8E78D6;
     font-family: "Kanit", sans-serif;
     font-weight: 600;
     font-style: normal;
+    margin-top: 10px;
+    margin-bottom: 0px;
 }
 
 .subtitulo {
+    font-size: 15px;
     color: #000;
     font-family: "Kanit", sans-serif;
     font-weight: 200;
     font-style: normal;
+    margin-bottom: 0px;
 }
 
 .criadores {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .cardCriadores:hover {
@@ -570,6 +578,7 @@ footer .font-regular-card {
     font-weight: 700;
     font-style: normal;
     color: #D6C278;
+    margin-bottom: 0;
 }
 
 /*  FAQ Bootstrap */
