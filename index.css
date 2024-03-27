@@ -240,7 +240,7 @@ Estilos para a div "bannerTopo" */
     top: 30px;
 }
 
-.btn-home {
+.btn1-home {
     background: #8E78D6;
     border-radius: 10px;
     padding: 10px;
@@ -248,12 +248,12 @@ Estilos para a div "bannerTopo" */
     max-width: 215px;
 }
 
-.btn-home>a {
+.btn1-home>a {
     color: white;
     font-weight: 700;
 }
 
-.btn-home-noticias {
+.btn1-home-noticias {
     background: #8E78D6;
     border-radius: 10px;
     padding: 10px;
@@ -263,12 +263,12 @@ Estilos para a div "bannerTopo" */
     flex-direction: row;
 }
 
-.btn-home-noticias>a {
+.btn1-home-noticias>a {
     color: white;
     font-weight: 700;
 }
 
-.btn-home-esportes {
+.btn1-home-esportes {
         background: #8E78D6;
         border-radius: 10px;
         padding: 10px;
@@ -277,7 +277,7 @@ Estilos para a div "bannerTopo" */
         margin-left: auto;
 }
 
-.btn-home-esportes>a {
+.btn1-home-esportes>a {
     color: white;
     font-weight: 700;
 }
